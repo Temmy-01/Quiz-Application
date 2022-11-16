@@ -40,12 +40,12 @@
         displayQuizCard.innerHTML += `
         <div class="section card-us col-md-12 pb-2"  >
           <div class="container" >
-            <div class="question ml-sm-5 pt-2">
-              <div class="d-flex flex-row justify-content-between align-items-center mcq pt-2 pb-2 pr-2 pl-2" style='background-color: #001a2f; width:1000px; border-radius:10px'>
+            <div class="question pt-2 m-auto">
+              <div class="d-flex justify-content-between align-items-center pt-2 pb-2 pr-2 pl-2" style='background-color: #001a2f; border-radius:10px'>
                 <h4>Question ${i + 1}</h4><span>(${i + 1} of ${quizez.length})</span>
               </div>
             </div>
-            <div class="question ml-sm-5 pt-2">
+            <div class="question  pt-2 m-auto">
                 
               <h5 class="py-2 h5" id="ques${i}">${quizez[i].question}</h5>
               <input ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" type="hidden" id="noOfoptions${i}" value="${Answers.length}">
